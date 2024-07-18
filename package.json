@@ -5,6 +5,10 @@
   "repository": "https://github.com/Narendra-Reddy1/aave-defi.git",
   "author": "narendra_reddy <narendrareddy54321@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "compile": "yarn hardhat compile",
+    "aave": "yarn hardhat run scripts/lend_borrow.js"
+  },
   "devDependencies": {
     "@aave/protocol-v2": "^1.0.1",
     "@ethersproject/abi": "^5.7.0",
